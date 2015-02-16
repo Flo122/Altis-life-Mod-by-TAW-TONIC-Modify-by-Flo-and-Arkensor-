@@ -10,13 +10,13 @@
 _onScreenTime = 8;
 
 sleep 15; //Wait in seconds before the credits start after player is in-game
- 
+
 _role1 = "Willkommen auf dem Altis Life Server von";
-_role1names = ["Altis Life Germany"];
+_role1names = ["Name Here"];
 _role2 = "Besuche uns auf dem Teamspeak:";
-_role2names = ["ts.play-germany.de"];
+_role2names = ["zero-one.ovh"];
 _role3 = "Unser Forum:";
-_role3names = ["play-germany.de/forum/"];
+_role3names = ["http://zero-one-altis.de/"];
 _role4 = "Beachtet immer die Regeln!";
 _role4names = ["Diese findet ihr auf der Map"];
 _role5 = "Neuerungen:";
