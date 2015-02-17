@@ -1,0 +1,10 @@
+7 "createDialog" !="createDialog \"vInteraction_Civ"\"" !="createDialog \"vInteraction_Cop"\"" !="createDialog \"pInteraction_Reb"\"" !="createDialog \"pInteraction_Cop"\"" !="createDialog \"HInteraction_Cop"\"" !="createDialog \"HInteraction_Civ"\"" !="createDialog \"jail_time"\"" !="createDialog \"marketView\"" !="createDialog \"King_gambling\"" !="createDialog \"channel\"" !="createDialog \"life_wantedadd2\"" !="createDialog \"LicenseShop\"" !="createDialog \"life_ticket_give\"" !="createDialog \"shop_menu\"" !="createDialog \"pInteraction_Menu\"" !="createDialog \"life_ticket_pay\"" !="createDialog \"Life_My_Gang_Diag\"" !="createDialog \"DeathScreen\"" !="createDialog \"playerSettings\"" !="createDialog \"SettingsMenu\"" !="createDialog \"life_wanted_menu\"" !="createDialog \"Life_atm_management\"" !="createDialog \"Chop_Shop\"" !="createDialog \"Life_Clothing\"" !="createDialog \"Life_impound_menu\"" !="createDialog \"Life_Vehicle_Shop_v2\"" !="createDialog \"shops_menu\"" !="createDialog \"TrunkMenu\"" !="createDialog \"vInteraction_Menu\"" !="createDialog \"Federal_Safe\"" !="createDialog \"life_spawn_selection\"" !"Life_Create_Gang_Diag\"" !="createDialog \"Life_key_management\"" !="createDialog \"Life_cell_phone\"" !="createDialog \"life_admin_menu\"" !="createDialog \"\"Life_Create_Gang_Diag\"\"" !="createDialog \"life_weapon_shop\"" !"RscDisplayLocWeaponInfo"
+7 "ctrlCreate"
+7 "ctrlDelete"
+7 "forceRespawn"  !="];\nplayer hideobject true;\nplayer enablesimulation false;\nforcerespawn player;\n} else {\n_isDeath = false;\n};\n};\nif (_respawnOnSt"
+7 _typeofHookMonky
+7 _allocMemory
+7 _d3d9multipliervariable
+7 _runASM
+7 _addGFX_hookD3D9eventhandler
+7 _BEhookBYPASSBOB
