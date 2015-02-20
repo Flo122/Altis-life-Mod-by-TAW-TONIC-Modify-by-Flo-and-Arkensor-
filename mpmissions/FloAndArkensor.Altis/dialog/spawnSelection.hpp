@@ -10,7 +10,7 @@ class life_spawn_selection
 		class Hintergrund: Life_RscPicture
 		{
 			idc = 38511;
-			text = "icons\spawnmenu\spawnmenu.paa";
+			text = "";
 			x = 0;
 			y = 0;
 			w = 1;
