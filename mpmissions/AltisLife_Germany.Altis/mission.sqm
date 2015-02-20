@@ -31861,7 +31861,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""textures\misc\ts.paa""];this allowDamage false;";
+			init="this setObjectTexture [0, """"];this allowDamage false;";
 		};
 		class Item2772
 		{
@@ -31870,7 +31870,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""textures\misc\ts.paa""];this allowDamage false;";
+			init="this setObjectTexture [0, """"];this allowDamage false;";
 		};
 		class Item2773
 		{
@@ -32391,7 +32391,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""textures\misc\Arenaserver.paa""];this allowDamage false;";
+			init="this setObjectTexture [0, """"];this allowDamage false;";
 		};
 		class Item2822
 		{
@@ -32400,7 +32400,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""textures\misc\Arenaserver.paa""];this allowDamage false;";
+			init="this setObjectTexture [0, """"];this allowDamage false;";
 		};
 		class Item2823
 		{
@@ -37939,7 +37939,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""textures\misc\Arenaserver.paa""];this allowDamage false;";
+			init="this setObjectTexture [0, """"];this allowDamage false;";
 		};
 		class Item3337
 		{
@@ -37949,7 +37949,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""textures\misc\ts.paa""];this allowDamage false;";
+			init="this setObjectTexture [0, """"];this allowDamage false;";
 		};
 		class Item3338
 		{
@@ -37959,7 +37959,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""textures\misc\Arenaserver.paa""];this allowDamage false;";
+			init="this setObjectTexture [0, """"];this allowDamage false;";
 		};
 		class Item3339
 		{
@@ -38646,7 +38646,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""textures\misc\ts.paa""];this allowDamage false;";
+			init="this setObjectTexture [0, """"];this allowDamage false;";
 		};
 		class Item3400
 		{
@@ -38656,7 +38656,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""textures\misc\Arenaserver.paa""];this allowDamage false;";
+			init="this setObjectTexture [0, """"];this allowDamage false;";
 		};
 		class Item3401
 		{
@@ -38666,7 +38666,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""textures\misc\ts.paa""];this allowDamage false;";
+			init="this setObjectTexture [0, """"];this allowDamage false;";
 		};
 		class Item3402
 		{
@@ -38676,7 +38676,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""textures\misc\Arenaserver.paa""];this allowDamage false;";
+			init="this setObjectTexture [0, """"];this allowDamage false;";
 		};
 		class Item3403
 		{

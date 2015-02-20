@@ -128,7 +128,7 @@ class Life_Client_Core
 		class HouseAlarmOff {};
 		class housewarn {};
 	};
-	class ALGLackieren
+	class FloAndArkensorLackieren
 	{
 		file = "core\lackieren";
 		
@@ -516,7 +516,7 @@ class King_Client_Core
 		
 	class Gambling
     {
-        file = "core\ALG\gambling";
+        file = "core\FloAndArkensor\gambling";
         class gambling {};
         class gamble {};
         class gamble_timer {};

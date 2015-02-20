@@ -2,12 +2,12 @@
 /*
 	File:
 	Author: Wolfgang Bahmüller
-	
+
 	Description:
 	Casino roll the dice
 
     Das Script darf nicht verändert werden!
-    Der Einsatz ist nur auf von mir genehmigten Servern/Clients erlaubt!    
+    Der Einsatz ist nur auf von mir genehmigten Servern/Clients erlaubt!
 */
 
 disableSerialization;
@@ -47,18 +47,18 @@ king_gamble_roll_time_to_wait = king_gamble_roll_time;
 _icons = ["dice_1.paa", "dice_2.paa", "dice_3.paa", "dice_4.paa", "dice_5.paa", "dice_6.paa"];
 
 while {king_gamble_roll_time_to_wait > 0} do
-{ 
+{
     _display = findDisplay 5000;
 
     _image1 = _display displayCtrl 5101;
     _image2 = _display displayCtrl 5102;
-    
+
     _idx1 = floor(random count _icons);
     _idx2 = floor(random count _icons);
 
     //lower the win chance...
     _dice_value = _idx1 + 1 + _idx2 + 1;
-    if( (((_idx1 + 1) == 6) && ((_idx2 + 1) == 6)) || _dice_value == 7) then    
+    if( (((_idx1 + 1) == 6) && ((_idx2 + 1) == 6)) || _dice_value == 7) then
     {
         _reroll = random 10;
         if(_reroll < king_gamble_reroll_if_won_factor_dice) then
@@ -67,9 +67,9 @@ while {king_gamble_roll_time_to_wait > 0} do
             _idx2 = floor(random count _icons);
         };
     };
-    
-    _image1 ctrlSetStructuredText parseText format["<img size='2.5' image='core\ALG\icons\%1'/>", _icons select _idx1 ];
-    _image2 ctrlSetStructuredText parseText format["<img size='2.5' image='core\ALG\icons\%1'/>", _icons select _idx2 ];
+
+    _image1 ctrlSetStructuredText parseText format["<img size='2.5' image='core\FloAndArkensor\icons\%1'/>", _icons select _idx1 ];
+    _image2 ctrlSetStructuredText parseText format["<img size='2.5' image='core\FloAndArkensor\icons\%1'/>", _icons select _idx2 ];
 
     sleep 0.05;
 };

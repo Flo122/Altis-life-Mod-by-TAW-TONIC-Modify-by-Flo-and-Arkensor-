@@ -2,12 +2,12 @@
 /*
 	File:
 	Author: Wolfgang Bahmüller
-	
+
 	Description:
 	Casino slotmachine
 
     Das Script darf nicht verändert werden!
-    Der Einsatz ist nur auf von mir genehmigten Servern/Clients erlaubt!    
+    Der Einsatz ist nur auf von mir genehmigten Servern/Clients erlaubt!
 */
 
 disableSerialization;
@@ -44,12 +44,12 @@ if(king_gamble_npc_name distance player > 5) exitWith {hint format["%1", king_ga
 king_gamble_roll_time_to_wait = king_gamble_roll_time;
 [] spawn king_fnc_gamble_timer;
 
-_icons = ["core\ALG\icons\gambling\cat_001.paa","core\ALG\icons\gambling\cat_002.paa","core\ALG\icons\gambling\cat_003.paa","core\ALG\icons\gambling\cat_004.paa","core\ALG\icons\gambling\cat_005.paa","core\ALG\icons\gambling\cat_006.paa","core\ALG\icons\gambling\cat_007.paa","core\ALG\icons\gambling\cat_008.paa","core\ALG\icons\gambling\cat_009.paa","core\ALG\icons\gambling\cat_010.paa","core\ALG\icons\gambling\cat_011.paa","core\ALG\icons\gambling\cat_012.paa"];
+_icons = ["core\FloAndArkensor\icons\gambling\cat_001.paa","core\FloAndArkensor\icons\gambling\cat_002.paa","core\FloAndArkensor\icons\gambling\cat_003.paa","core\FloAndArkensor\icons\gambling\cat_004.paa","core\FloAndArkensor\icons\gambling\cat_005.paa","core\FloAndArkensor\icons\gambling\cat_006.paa","core\FloAndArkensor\icons\gambling\cat_007.paa","core\FloAndArkensor\icons\gambling\cat_008.paa","core\FloAndArkensor\icons\gambling\cat_009.paa","core\FloAndArkensor\icons\gambling\cat_010.paa","core\FloAndArkensor\icons\gambling\cat_011.paa","core\FloAndArkensor\icons\gambling\cat_012.paa"];
 //images von https://www.iconfinder.com/search/?q=iconset%3Acat-force
 //License: Free for commercial use
 
 while {king_gamble_roll_time_to_wait > 0} do
-{ 
+{
     _display = findDisplay 5000;
 
     _image1 = _display displayCtrl 5201;
@@ -68,13 +68,13 @@ while {king_gamble_roll_time_to_wait > 0} do
         {
             _idx1 = floor(random count _icons);
             _idx2 = floor(random count _icons);
-            _idx3 = floor(random count _icons);           
+            _idx3 = floor(random count _icons);
         };
     };
-    
+
     _image1 ctrlSetStructuredText parseText format["<img size='2.5' image='%1'/>", _icons select _idx1 ];
     _image2 ctrlSetStructuredText parseText format["<img size='2.5' image='%1'/>", _icons select _idx2 ];
-    _image3 ctrlSetStructuredText parseText format["<img size='2.5' image='%1'/>", _icons select _idx3 ];        
+    _image3 ctrlSetStructuredText parseText format["<img size='2.5' image='%1'/>", _icons select _idx3 ];
 
     sleep 0.05;
 };
